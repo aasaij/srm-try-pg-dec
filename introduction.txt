@@ -1,0 +1,161 @@
+data types
+	int, char, float, double, void
+  modifiers
+	signed, unsigned, long, short
+	const, volatile
+	
+	sizeof
+Control structures
+	if, else, switch, case, break, default
+	for, while, do, continue, goto
+UDD (User defined data type)
+	struct, union, typedef, Enum
+Storage classes
+	auto, extern, static, register
+Function
+	return 
+
+Operators
+	1. Arithmetic
+		+, -, *, /, %
+	2. Relational 
+		>, >=, <, <=, ==, !=
+	3. Logical --> Short circuit 
+		&&, ||, !
+
+	max = x > y && x > z;
+	max = x > y || x > z;
+
+
+
+SRM-TRC assessment links for 01-12-2025 :
+
+FN link: https://tinyurl.com/26yrctky
+[active time: 10am to 2pm]
+
+password: ccc [all are small characters]
+
+
+
+
+
+Practice Link : https://tinyurl.com/yc3pkh4j
+
+
+
+
+AN link: https://tinyurl.com/2jbazywx
+[active time: 1pm to 4.30pm]
+
+
+Attendance : https://bit.ly/CCC-AH
+Day 2: 
+Increment/Decrement
+++/--
+a++ ==> Post
+++a ==> Pre
+
+Conditional or Ternary
+	?:
+Syntax:
+	<condition>?<true>:<false>;
+example
+	max = x > y ? x : y;
+
+	if ( x > y)
+		max = x;
+	else
+		max = y;
+	
+	
+	max = x > y && x > z?x:(y>z?y:z);
+
+
+	if ( x>y && x>z)
+		max = x;
+	else if (y>z)
+		max = y;
+	else
+		max = z;
+Bitwise
+	& 	AND
+	|	OR
+	^	XOR
+	~	1's Complement, NOT, Negation
+	>>	Right shift
+	<<	Left Shift
+Assignment 
+	Simple
+		=
+		x = 10;
+	Shorthand
+		+=, -=, *=, /=, %=
+		x = x + 10; ==> x+=10;
+		a = a + b ==> a+=b;
+		
+		&=,|=, ^=, >>=, <<=
+Special
+	. (dot)
+	, (comma)
+	sizeof()
+	-> (arrow)
+Data type
+	1. Standard
+		int, char, float, double, void
+	int  ==> 4 bytes
+	int salary;
+		Range -2147483648 to 2147483647
+		signed short int -> 2		%hi or %hd
+		unsigned short int -> 2	%hu
+
+		long int -> 8		%li or %ld
+		long long int -> 8	%lli or %lld
+		unsigned long int -> 8	%lu
+		unsigned long long int -> 8	%llu
+		int -> 4			%d or %i
+		unsigned int ->		%u
+	
+	char --> 1 byte
+		Range --> -128 to 127
+
+		signed char		%c
+		unsigned char		%c
+	float --> 4 bytes --> 6 bits for decimal
+		Single precision
+		%f
+	double --> 8 bytes --> 12 buts for decimal
+		Double precision
+		%lf
+	2. Derived
+		pointers, arrays
+	3. UDD
+		structures, unions
+	
+Structure of C Program
+	Documentation section
+	Preprocessor directives
+	#include 
+	global declarations
+
+	int main(){
+		local declarations
+		executable statements
+		return <value>;
+	}
+
+
+Control structures
+	1. Sequential
+	2. Selective
+		if
+		switch
+	3. Iterative
+		for
+		while
+		do..while
+		goto
+
+
+
+
+

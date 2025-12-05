@@ -1,0 +1,29 @@
+data types
+	int, char, float, double, void
+  modifiers
+	signed, unsigned, long, short
+	const, volatile
+	
+	sizeof
+Control structures
+	if, else, switch, case, break, default
+	for, while, do, continue, goto
+UDD (User defined data type)
+	struct, union, typedef, Enum
+Storage classes
+	auto, extern, static, register
+Function
+	return 
+
+Operators
+	1. Arithmetic
+		+, -, *, /, %
+	2. Relational 
+		>, >=, <, <=, ==, !=
+	3. Logical --> Short circuit 
+		&&, ||, !
+
+	max = x > y && x > z;
+	max = x > y || x > z;
+
+
